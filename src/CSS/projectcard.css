@@ -112,6 +112,7 @@
 @media screen and (max-width: 768px){
     .ProjectCard{
         height: 100%;
+        width: auto;
     }
 
     .Project-Info h2{
