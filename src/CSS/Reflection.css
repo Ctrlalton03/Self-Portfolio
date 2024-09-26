@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap>');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.reflections-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    margin-top: 20px;
+    
+}
+
+.reflections-section h2{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.reflections-section p{
+    font-family: 'Gowun+Batang', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.ArticleContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.ArticleContent{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid green;
+}
+
+.ArticleContent h3{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.List_Skills{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid yellow;
+}
+
+.List_Skills li{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    border: 1px solid red;
+}
+
+.ArticleContent p{
+    font-family: 'Gowun+Batang', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+
+}

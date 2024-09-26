@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap>');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cta-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.cta-buttons button{
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0f84f1;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta-buttons button:hover{
+    background-color: #000000;
+    color: #fff;
+}
+
+section h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section p{
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Gowun+Batang', sans-serif;
+}
+.BodyContentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.BodyContentContainer{
+    font-family: "Gowun+Batang", sans-serif;
+}
+
+
+.BodyContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    row-gap: 10px;
+}
+
+.BodyContent img{
+    width: 20%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.BodyContentText{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    margin-left: 10px;
+}
+
+.BodyContentText p{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.SkillsListContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    width: 80%;
+    
+}
+
+.SkillsListContainer p{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.SkillsListContainer ul{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.SkillsListContainer ul li{
+    font-family: "Gowun+Batang", sans-serif;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.SkillsListContainer ul li:hover{
+    background-color: #0f84f1;
+    color: black;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .BodyContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        row-gap: 10px;
+    }
+
+
+    
+}
