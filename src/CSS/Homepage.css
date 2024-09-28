@@ -8,12 +8,22 @@
     box-sizing: border-box;
 }
 
+.Contentbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c2c2c;
+    color: white;
+}
 
 .cta-buttons{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
 
 }
 
@@ -51,11 +61,11 @@ section p{
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    font-family: "Gowun+Batang", sans-serif;
+    font-size: 1.2rem;
 }
 
-.BodyContentContainer{
-    font-family: "Gowun+Batang", sans-serif;
-}
+
 
 
 .BodyContent{

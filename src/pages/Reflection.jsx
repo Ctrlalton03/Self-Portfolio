@@ -63,16 +63,109 @@ const ReflectionsPage = () => {
 
       <article className='ArticleContainer'>
         <h2>The Odin Project</h2>
-        <p>
-          In addition to React, I spent a considerable amount of time improving my CSS skills. Learning Flexbox and Grid has made it easier to create responsive designs. I've also explored CSS frameworks like Bootstrap and Tailwind to speed up development and ensure consistency in my designs.
-        </p>
+        <div className='ArticleContent'>
+          <h3>Skills Learned</h3>
+          <ul className='List_Skills'>
+            <li>Version Control with Git</li>
+            <li>React Framework</li>
+            <li>Problem-Solving & Debugging</li>
+          </ul>
+          <div className='ChallengesContainer'>
+            <h3>challenges Faced</h3>
+            <p>
+              <strong>Understanding JavaScript Closures & Scope:</strong> Learning how closures and 
+              scope work in JavaScript was particularly challenging. It took time and several exercises 
+              to fully understand how functions retain access to variables within their scope even after 
+              execution.
+            </p>
+            <p>
+              <strong>React State Management:</strong> Handling complex state in React, especially when 
+              building components that interact with each other, was a major learning curve. It was 
+              tough to understand how to manage props and state effectively without causing unnecessary 
+              re-renders.
+            </p>
+            <p>
+              <strong>Staying Motivated:</strong> Given that The Odin Project is self-paced, 
+              staying motivated through some of the more difficult parts of the curriculum 
+              4(like the JavaScript Algorithms section) was challenging. There were times 
+              when progress felt slow.
+            </p>
+
+          </div>
+          <div className='KeyContainer'>
+            <h3>Key Takeaways</h3>
+            <p>
+              <strong>Real-World Projects Are Invaluable:</strong> The Odin Project emphasized 
+              hands-on projects that simulate real-world scenarios, which helped me apply what 
+              I learned in a meaningful way. These projects taught me how to think critically 
+              and solve complex coding problems.
+            </p>
+            <p>
+              <strong>Deeper Understanding of React:</strong> Through persistent practice, 
+              I developed a stronger grasp of how to effectively use React Hooks, especially 
+              useState and useEffect, to manage component state and lifecycle events.
+            </p>
+            <p>
+              <strong>Community Support is Crucial:</strong> I learned the value of asking for help when 
+              needed, as The Odin Project community was incredibly supportive when I encountered obstacles. 
+              Engaging with peers also helped me better understand difficult concepts and find new approaches 
+              to problem-solving.
+            </p>
+          </div>
+        </div>
       </article>
 
       <article className='ArticleContainer'>
-        <h2>Reflection 3: Building Projects from Scratch</h2>
-        <p>
-          Building projects from scratch has been the most effective way to solidify my learning. Starting with simple projects like a To-Do List app, I gradually moved to more complex ones. Each project posed unique challenges, from debugging to refining UI elements, and each one taught me new strategies to enhance user experience.
-        </p>
+        <h2>GitHub & Version Control</h2>
+        <div className='ArticleContent'>
+          <h3>Skills Learned</h3>
+          <ul className='List_Skills'>
+            <li>Git Commands</li>
+            <li>Branching & Merging</li>
+            <li>Collaboration and Open Source</li>
+            <li>Documentation and Workflow</li>
+          </ul>
+          <div className='ChallengesContainer'>
+            <h3>challenges Faced</h3>
+            <p>
+              <strong>Understanding Git Workflow:</strong> At first, learning 
+              the Git workflow—especially when working with branches—was confusing. 
+              I struggled with merge conflicts and understanding when to use 
+              different commands like rebase or merge.
+            </p>
+            <p>
+             <strong>Resolving Merge Conflicts:</strong> Early on, resolving merge 
+             conflicts was a daunting task. It was difficult to understand why 
+             conflicts occurred and how to resolve them without losing important changes.
+            </p>
+            <p>
+              <strong>Documentation Writing:</strong> Writing clear and concise project 
+              documentation (e.g., README files) that was helpful to others required 
+              practice. It was challenging to determine what information to include to make 
+              the project easy to understand for collaborators.
+            </p>
+          </div>
+          <div className='KeyContainer'>
+            <h3>Key Takeaway</h3>
+            <p>
+              <strong>Mastery of Version Control is Essential:</strong> Over time, i became 
+              comfortable with the Git workflow, learning how to handle complex branching and 
+              merging processes
+            </p>
+            <p>
+              <strong>Importance of Clear Documentation:</strong> Writing documentation taught 
+              me the importance of clarity in communication. A well-written README file not 
+              only helps others understand the project but also showcases the developer’s 
+              professionalism and attention to detail.
+            </p>
+            <p>
+              <strong>Open Source Collaboration is a Powerful Learning Tool:</strong> Contributing 
+              to open-source projects helped me gain valuable experience working in collaborative 
+              environments. I learned how to review code, follow coding standards, and ensure compatibility 
+              across different setups.
+            </p>
+          </div>
+        </div>
       </article>
     </section>
   );

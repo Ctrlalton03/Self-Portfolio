@@ -35,7 +35,7 @@ const ProjectsPage = () => {
 
   return (
   <>
-    <section>
+    <section className='ProjectsSection'>
       <div className='projects-section'>
         <h2>My Projects</h2>
 

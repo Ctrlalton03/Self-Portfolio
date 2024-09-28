@@ -1,6 +1,6 @@
 import React from 'react';
 import '../CSS/Homepage.css';
-import myImage from '../assets/Images/Portfolio-selfie.png';
+
 
 const HomePage = () => {
   return (
@@ -13,18 +13,13 @@ const HomePage = () => {
       <section className='BodyContentContainer'>
         <h1>About Me</h1>
       <div className='BodyContent'>
-      <img src={myImage} alt="Myself" />
       <div className='BodyContentText'>
         <p>
           Hi, I’m Alton Simpson! I’m passionate about front-end development and currently learning how to create beautiful and interactive web experiences.
-          When I’m not coding, I love going out and enjoying life with friends. Whether it's grabbing dinner, attending fun events, or simply hanging out, I believe that balance is key.
-        </p>
-        <p>
-          My journey in web development started with HTML and CSS, and I’m now diving deep into JavaScript, React, and modern development tools. I’m fascinated by how the front-end can bring designs to life and improve user experiences.
-          I enjoy turning ideas into functional, responsive websites, and I’m always looking for opportunities to learn and grow as a developer.
-        </p>
-        <p>
-          Feel free to explore my projects and learning reflections. I hope my portfolio gives you a sense of both my technical journey and my personality.
+          When I’m not coding, I love going out and enjoying life with friends. Whether it's grabbing dinner, attending fun events, or simply hanging out, I 
+          believe that balance is key. My journey in web development started with HTML and CSS, and I’m now diving deep into JavaScript, React, and modern development tools. I’m fascinated by how the front-end can bring designs to life and improve user experiences.
+          I enjoy turning ideas into functional, responsive websites, and I’m always looking for opportunities to learn and grow as a developer. Feel free to explore my projects and learning reflections. I hope my portfolio gives you 
+          a sense of both my technical journey and my personality.
         </p>
       </div>
         
