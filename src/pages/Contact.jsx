@@ -17,7 +17,7 @@ const Contact = () => {
             </button>
             <p>Or Send me a email to my Personal email</p>
             <button>
-                <a href="mailto:altonsimpson22@gmail.com>">Perosnal Email</a>
+                <a href="mailto:altonsimpson22@gmail.com>">Personal Email</a>
             </button>
         </section>
         </>

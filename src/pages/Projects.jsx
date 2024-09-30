@@ -73,7 +73,7 @@ const ProjectsPage = () => {
           </p>
         </div>
         <div className='TechStackInfoContainer'>
-          <h2>Moment Manager: Task Management Web App</h2>
+          <h2>Moment Manager: Task Management App</h2>
           <h3>Technologies Used:</h3>
           <p>
             Built with React for dynamic interactions, alongside 

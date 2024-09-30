@@ -10,6 +10,7 @@ const HomePage = () => {
         <h1>Welcome to My Self-Development Project</h1>
         <p>This portfolio showcases my journey in learning front-end development.</p>
       </section>
+      <img src="../Photo/Profile.jpeg" alt="Alton Simpson" className="AltonSimpson" />
       <section className='BodyContentContainer'>
         <h1>About Me</h1>
       <div className='BodyContent'>
