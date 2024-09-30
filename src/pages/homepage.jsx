@@ -53,10 +53,10 @@ const HomePage = () => {
       <section className='BodyContentContainer' >
         <h2>Here Are the links to the Other Sections of my Project</h2>
       <div className="cta-buttons">
-        <a href="/projects"><button>View My Personal Projects</button></a>
-        <a href="/courses"><button>Completed Courses</button></a>
-        <a href="/reflections"><button>Learning Reflections</button></a>
-        <a href="/contact"><button>Contact Me</button></a>
+        <a href="/Projects"><button>View My Personal Projects</button></a>
+        <a href="/Courses"><button>Completed Courses</button></a>
+        <a href="/Reflections"><button>Learning Reflections</button></a>
+        <a href="/Contact"><button>Contact Me</button></a>
       </div>
       </section>
       
