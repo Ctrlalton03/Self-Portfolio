@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../CSS/Homepage.css';
 
 
@@ -53,10 +54,10 @@ const HomePage = () => {
       <section className='BodyContentContainer' >
         <h2>Here Are the links to the Other Sections of my Project</h2>
       <div className="cta-buttons">
-        <a href="/Projects"><button>View My Personal Projects</button></a>
-        <a href="/Courses"><button>Completed Courses</button></a>
-        <a href="/Reflections"><button>Learning Reflections</button></a>
-        <a href="/Contact"><button>Contact Me</button></a>
+        <Link to="/Projects"><button>View My Personal Projects</button></Link>
+        <Link to="/Courses"><button>Completed Courses</button></Link>
+        <Link to="/Reflections"><button>Learning Reflections</button></Link>
+        <Link to="/Contact"><button>Contact Me</button></Link>
       </div>
       </section>
       
